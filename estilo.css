@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.full-bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #24C6DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card {
+    width: 450px;
+    height: 250px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, .4);
+    position: absolute;
+    top: 50%;
+    margin-top: -175px;
+    left: 50%;
+    margin-left: -275px;
+    background: rgba(255, 255, 255, 0.3);
+backdrop-filter: blur(42.9032px);
+    z-index:999999;
+    border: 1.07px solid;
+    border-color: rgba(255, 255, 255, .2);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.full-card {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    margin-top: -150px;
+    left: 50%;
+    margin-left: -250px;
+}
+
+.circle-1 {
+    content: '';
+    width: 200px;
+    height:200px;
+    border-radius: 100%;
+    position: absolute;
+    z-index:9;
+    left: -100px;
+    top: -100px;
+    background: #4776E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.circle-2 {
+    content: '';
+    width: 200px;
+    height:200px;
+    border-radius: 100%;
+    position: absolute;
+    z-index:9;
+    right: -100px;
+    bottom: -100px;
+    background: #4776E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.chip {
+    width: 100px;
+    height:50px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, .2);
+    border: solid 1px #fff;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.number {
+    font-size: 40px;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, .15);
+}
+
+.name {
+    font-size: 20px;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, .15);
+}
+
+.date {
+    margin-top: 20px;
+    font-size: 20px;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, .15);
+}
+
+.mastercard {
+    width: 100px;
+    position: absolute;
+    bottom: 30px;
+    right: 15px;
+    display: flex;
+}
+
+.circlem-1 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, .6);
+    position: relative;
+    border-radius: 100%;
+    margin-right: -25px;
+}
+
+.circlem-2 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, .6);
+    position: relative;
+    border-radius: 100%;
+}
+
